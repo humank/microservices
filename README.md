@@ -6,7 +6,7 @@ Before you make a decision to migrate monolith to microservices, there is an ess
 - How many standalone or monolithic service(s) are going to be re-architectured?
 - How many domain experts will join the re-architecture journey? Per-monolith per(or)multiple experts?
 - Is there an architectural diagram of these legacy systems?
-- What's the communication protocol among the current system architecture? (ex: DB-Link, File, API, Client SDK…etc )
+- What's the communication protocol among the current system architecture?(ex: DB-Link, File, API, Client SDK…etc )
 - Which approach is preferred to do the re-architecutre? Big Bang or Iterative & Incremental, Why?
 - Before the re-architecture process, how do you ensure the re-architectured function well as usual? Any approach or mechanism to protect? 
 - Can you figure out the severity level when services down? ( 5 to 1, 5 is the most serious) Can you explain what's the impact?
