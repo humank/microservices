@@ -95,10 +95,8 @@ Disaster severity	|
 Subsystem	|
 Failure Impact	|
 |---	|---	|---	|
-|
-★★★★★	|Account	|Customer will no longer to do transaction. Operator couldn't retrieve accounting reports. Agent couldn't register any new comer account	|
-|
-★★★★★	|User Service	|Customer & Operator can't login platform to perform any action	|
+|5	|Account	|Customer will no longer to do transaction. Operator couldn't retrieve accounting reports. Agent couldn't register any new comer account	|
+|5	|User Service	|Customer & Operator can't login platform to perform any action	|
 
 Besides , you can also have a Two-Dimension table to show up the co-relationships between each service
 
