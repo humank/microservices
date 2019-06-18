@@ -32,7 +32,7 @@ Here is an example :
 |Payment	|Payment	|付款	|	|
 |Member	|Member	|會員	|	|
 
-* Is there an architectural diagram of these legacy systems?
+### Is there an architectural diagram of these legacy systems?
 
 > In order to have a concrete understanding about the monolith, recommend to prepare the following diagrams. it’s not must to have but recommend to do.
 
