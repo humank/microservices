@@ -3,7 +3,43 @@
 Please fill-up the following questionnaire, it's mandatory to have essential understanding to go to next stage.
 
 * How many standalone or monolithic service(s) are going to be re-architectured?
+
+> You need to confirm how many systems there to re-architecture, try to list or draw a diagram to demonstrate what’s the core capability these monolith provide, and why you need to break it out. In my opinion there should contain these 3 aspect of viewpoints but not only.
+
+
+Here is an example to explain why to do it.
+
+|System Name	|Business Capability	|Force	|	|
+|---	|---	|---	|---	|
+|City Weather information System	|1. collect and persist daily weather information
+2. calculate history data and provide open data usage
+3. integrate with several government system to build up data exchange lifecycle	|1. The legacy monolith runs for more than 20 years, without clear understanding.
+2. The source code size is too huge, download, dev and test take too much time to wait, programmers waste time on waiting
+3. Would like to build team in small size, per team owns a specific business context, and split it out from the monolith.	|	|
+|Online EC shopping	|Contains several classic online shopping functions, and always be challenged at hot event days	|Embrace the event day, dealing with high concurrent access on specific business, such as DM presenting, shopping cart putting items, or payment gateway transactions.	|	|
+|Nitch economic marketing	|provide quick change funcitions to support A/B testing marketing needs	|Way to embrace rapidly change, per function is designed in seperately	|	|
+|	|	|	|	|
+|	|	|	|	|
+
 * How many domain experts will join the re-architecture journey? Per-monolith per(or)multiple experts?
+
+> Regarding domain experts, there shouldn’t be only BA(Business analyst), SA(System analyst), or Customer but also the whole services’ stakeholders, such as operation engineer, developer, CxO, marketing, BD(Business Development), Sales ...etc 
+
+
+
+> The first step to step in breaking the monolith is to collaborate team’s knowledge, you may leverage a centralized wiki to use the “Ubiquitous Language”, traditionally we use it in OOAD like “Glossary”.
+
+
+Here is an example : 
+
+|	|	|	|	|
+|---	|---	|---	|---	|
+|	|	|	|	|
+|	|	|	|	|
+|	|	|	|	|
+|	|	|	|	|
+|	|	|	|	|
+
 * Is there an architectural diagram of these legacy systems?
 * What's the communication protocol among the current system architecture? (ex: DB-Link, File, API, Client SDK…etc )
 * Which approach is preferred to do the re-architecutre? Big Bang or Iterative & Incremental, Why?
