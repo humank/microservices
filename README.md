@@ -96,7 +96,7 @@ Subsystem	|
 Failure Impact	|
 |---	|---	|---	|
 |
-★★★★★	|Account	|Customer will no longer to do transaction.  Operator couldn't retrieve accounting reports.  Agent couldn't register any new comer account	|
+★★★★★	|Account	|Customer will no longer to do transaction. Operator couldn't retrieve accounting reports. Agent couldn't register any new comer account	|
 |
 ★★★★★	|User Service	|Customer & Operator can't login platform to perform any action	|
 
