@@ -1,4 +1,4 @@
-# Migration from Monolith to MicroServices via DDD approach readiness
+# Migration from Monolith to MicroServices readiness
 
 Please fill-up the following questionnaire, it's mandatory to have essential understanding to go to next stage.
 
@@ -46,7 +46,17 @@ Here is an example :
 |Collaboration Diagram	|**UML collaboration**/communication **diagrams** like**UML** sequence **diagrams**, are used to explore the dynamic nature of your software. **Collaboration diagrams** show the message flow between objects in an OO application, and also imply the basic associations (relationships) between classes.	|http://agilemodeling.com/style/collaborationDiagram.htm	|
 
 * What's the communication protocol among the current system architecture? (ex: DB-Link, File, API, Client SDK…etc )
+
+> Point out all the communication protocol(s), no matter it is DB-Link, File, API over HTTP SOAP 1.x or higher, over HTTP by JSON request/response format, Client SDK, RMI/IIOP... etc.
+
+> You may found one tricky fact, that most of  the communication protocol are specific-vendor technical injection. Recommend to re-consider to “Communicate by contract”, it’s a good way to escape from legacy technical debt. If there are still need to collaborate with others which couldn’t be changed now, try to translate it at “ API Gateway”. Amazon API gateway is a good fit to help on this issue. https://aws.amazon.com/api-gateway/
+
+> So, the new communication protocol will be guide to use a classic HTTP/HTTPS protocol with readable request/response body, which release team’s innovation ability, choose appropriate technology to implement without legacy lock.
+
 * Which approach is preferred to do the re-architecutre? Big Bang or Iterative & Incremental, Why?
+
+> 
+
 * Before the re-architecture process, how do you ensure the re-architectured function well as usual? Any approach or mechanism to protect? 
 * Can you figure out the severity level when services down? ( 5 to 1, 5 is the most serious) Can you explain what's the impact?
 * Can you figure out the services operation SLA on different architecture style, such as request/response, fire and forget (a.k.a asynchronized interaction)… etc.
