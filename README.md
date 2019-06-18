@@ -11,11 +11,9 @@ Here is an example to explain why to do it.
 
 |System Name	|Business Capability	|Force	|	|
 |---	|---	|---	|---	|
-|City Weather information System	|1. collect and persist daily weather information
-2. calculate history data and provide open data usage
-3. integrate with several government system to build up data exchange lifecycle	|1. The legacy monolith runs for more than 20 years, without clear understanding.
-2. The source code size is too huge, download, dev and test take too much time to wait, programmers waste time on waiting
-3. Would like to build team in small size, per team owns a specific business context, and split it out from the monolith.	|	|
+|City Weather information System	|Collect and persist daily weather information.
+Calculate history data and provide open data usage.
+Integrate with several government system to build up data exchange lifecycle	|The legacy monolith runs for more than 20 years, without clear understanding. The source code size is too huge, download, dev and test take too much time to wait, programmers waste time on waiting. Would like to build team in small size, per team owns a specific business context, and split it out from the monolith.	|	|
 |Online EC shopping	|Contains several classic online shopping functions, and always be challenged at hot event days	|Embrace the event day, dealing with high concurrent access on specific business, such as DM presenting, shopping cart putting items, or payment gateway transactions.	|	|
 |Nitch economic marketing	|provide quick change funcitions to support A/B testing marketing needs	|Way to embrace rapidly change, per function is designed in seperately	|	|
 |	|	|	|	|
@@ -53,4 +51,6 @@ Here is an example :
 * Will each team have rights to make decision(s) on technology adoption? 
 * Any specific non-functional requirements should be addressed in the new microservices architecture?
 * When will you launch the re-architecture project?
+
+
 
