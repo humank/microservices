@@ -57,6 +57,9 @@ Here is an example :
 ### Which approach is preferred to do the re-architecutre? Big Bang or Iterative & Incremental, Why?
 
 ![Way to divide monolith](https://martinfowler.com/bliki/images/microservice-verdict/path.png)
+
+> reference from https://martinfowler.com/microservices/
+
 Recommend to divide monolith in I&I  (Iterative & Incremental), because of we may lack of whole business understanding, keep it in baby step, re-programming with test protection. You may always be challenged this approach could take several year(s) to fully transform monolith into microservices, it doesn’t matter.
 
 
