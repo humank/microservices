@@ -118,10 +118,11 @@ How to design service with resilience non-functional attribute?
 
 
 Patterns for Resilient Architecture Design , by Adrian Hornsby @AWS
-https://medium.com/@adhorn/patterns-for-resilient-architecture-part-1-d3b60cd8d2b6 
-https://medium.com/@adhorn/patterns-for-resilient-architecture-part-2-9b51a7e2f10f
-https://medium.com/@adhorn/patterns-for-resilient-architecture-part-3-16e8601c488e
-https://medium.com/@adhorn/patterns-for-resilient-architecture-part-4-85afa66d6341
+
+* https://medium.com/@adhorn/patterns-for-resilient-architecture-part-1-d3b60cd8d2b6 
+* https://medium.com/@adhorn/patterns-for-resilient-architecture-part-2-9b51a7e2f10f
+* https://medium.com/@adhorn/patterns-for-resilient-architecture-part-3-16e8601c488e
+* https://medium.com/@adhorn/patterns-for-resilient-architecture-part-4-85afa66d6341
 
 
 ### Can you figure out the services operation SLA on different architecture style, such as request/response, fire and forget (a.k.a asynchronized interaction)… etc.
