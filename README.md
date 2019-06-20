@@ -68,7 +68,7 @@ Recommend to divide monolith in I&I  (Iterative & Incremental), because of we ma
 
 When you have several team(s) to breakout monolith into microservices at the same time, ensure to clarify the business context via stakeholders and domain experts confirmation. There is an fluent way to discover business flow by critical business event pipeline, so called **Event Storming workshop.**
 
-Event Storming, is founded by Alberto Brandolini a couple years ago, take a look on this. 
+Event Storming, is founded by Alberto Brandolini a couple of years ago, take a look on this. 
 https://www.youtube.com/watch?v=NGXl1D-KwRI 
 
 If you want to know a sample to run EventStorming and implement on AWS platform, here you go : 
