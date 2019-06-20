@@ -119,6 +119,8 @@ How to design service with resilience non-functional attribute?
 
 > recommend to watch this video : @https://youtu.be/gET51_C3k5s
 
+The latest public speech : http://bit.ly/2FmxDaS
+
 
 Patterns for Resilient Architecture Design , by Adrian Hornsby @AWS
 
