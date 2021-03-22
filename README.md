@@ -93,10 +93,7 @@ Encourage to do Unit test when re-develop specific functions, encourage do it wi
 
 Example : 
 
-|
-Disaster severity	|
-Subsystem	|
-Failure Impact	|
+|Disaster severity	|Subsystem	|Failure Impact	|
 |---	|---	|---	|
 |5	|Account	|Customer will no longer to do transaction. Operator couldn't retrieve accounting reports. Agent couldn't register any new comer account	|
 |5	|User Service	|Customer & Operator can't login platform to perform any action	|
